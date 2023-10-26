@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        Waseela Begum Profile
+    </title>
+    <style>
+        body{
+            font-family: Arial,  sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: aqua;
+        }
+
+        header{
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+            position: relative;
+        }
+        .header-content h1
+        {
+            font-size: 2.5rem;
+        }
+        .profile-picture{
+            width: 90px;
+            height: 90px;
+            border-radius: 75%;
+            object-fit: absolute;
+            top: 75px;
+            left: 90px;
+        }
+nav{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.section-content{
+    background-color: #fff;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 1);
+}
+.download-button{
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.download-button:hover{
+    background-color: blue;
+}
+footer{
+    text-align: center;
+    padding: lrem 0;
+    background-color: #333;
+    color: #fff;
+}
+ul{
+    list-style-type: lower-alpha;
+    padding-left: 20px;
+}
+
+    </style>
+    <body>
+        <header>
+            <div class="header-content">
+                <img src="F:\1st year photo 2021\waseela begum.jpg".jpg " alt="your profile picture" class="profile-picture">
+                <h1>
+                    WASEELA BEGUM
+                </h1>
+                <p>
+                    passionate on teaching
+                </p>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#about">about</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#resume">Resume</a></li>
+            </ul>
+        </nav>
+        <section id="about">
+        <div class="section-content">
+            <h2>
+                About Me
+            </h2>
+            <p>Hello Every One This is Waseela Begum</p>
+        </div>
+        </section>
+        <section id="Education">
+            <div class="section-content">
+                <h2>
+                    B.Sc Computer Science
+                </h2>
+                <p>
+                    Annai Khadeeja Atrs and Science college for Women
+                    Bharathidasan university
+                </p>
+                        </div>
+        </section>
+        <section id="Skills">
+            <div class="section-content">
+                <h2>
+                    Skills
+                </h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>JAVA</li>
+                </ul>
+                </div>
+        </section>
+        <section id="Resume">
+            <center>
+                <div class="section-content">
+                    <h2>RESUME</h2>
+                    <a href="C:\Users\RIGHT\Desktop\final\resume.docx" class="download-button">Download CV</a>
+                </div>
+            </center>
+        </section>
+        <footer>
+            <p>&copy;2023 KaviyaGanesan</p>
+        </footer>
+        
+<script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor=>{
+        anchor.addEventListener('click',function(e){
+            e.preventDefault();
+        }
+        
+        )
+    })
+</script>
+    </body>
+</html>
